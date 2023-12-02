@@ -13,18 +13,19 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     ...SHADOWS.medium,
     shadowColor: COLORS.white,
+    backgroundColor:COLORS.tertiary
   },
   logoContainer: {
     width: 50,
     height: 50,
-    backgroundColor: COLORS.white,
-    borderRadius: SIZES.medium,
+    // backgroundColor: COLORS.white,
+    // borderRadius: SIZES.medium,
     justifyContent: "center",
     alignItems: "center",
   },
   logImage: {
-    width: "70%",
-    height: "70%",
+    width: "100%",
+    height: "100%",
   },
   textContainer: {
     flex: 1,
@@ -32,12 +33,12 @@ const styles = StyleSheet.create({
   },
   jobName: {
     fontSize: SIZES.medium,
-    fontFamily: "DMBold",
+    // fontFamily: "DMBold",
     color: COLORS.primary,
   },
   jobType: {
     fontSize: SIZES.small + 2,
-    fontFamily: "DMRegular",
+    // fontFamily: "DMRegular",
     color: COLORS.gray,
     marginTop: 3,
     textTransform: "capitalize",

@@ -1,19 +1,19 @@
 const COLORS = {
-  primary: "#312651",
-  secondary: "#444262",
-  tertiary: "#FF7754",
+  primary: "#634037",
+  secondary: "#c08552",
+  tertiary: "#f8f4ee",
 
-  gray: "#83829A",
-  gray2: "#C1C0C8",
+  gray: "#6a6a6a",
+  gray2: "#a3a2a9",
 
   white: "#F3F4F8",
   lightWhite: "#FAFAFC",
 };
 
 const FONT = {
-  regular: "DMRegular",
-  medium: "DMMedium",
-  bold: "DMBold",
+  // regular: "DMRegular",
+  // medium: "DMMedium",
+  // bold: "DMBold",
 };
 
 const SIZES = {
