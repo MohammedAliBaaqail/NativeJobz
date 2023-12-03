@@ -8,7 +8,9 @@ import {
   Popularjobs,
   ScreenHeaderBtn,
   Welcome,
-} from "../components";
+  } from "../components";
+
+ 
 
 const Home = () => {
   const router = useRouter()
@@ -16,19 +18,19 @@ const Home = () => {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
-      <Stack.Screen
+      {/* <Stack.Screen
         options={{
-          headerStyle: { backgroundColor: COLORS.lightWhite },
-          headerShadowVisible: false,
-          headerLeft: () => (
-            <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%' />
-          ),
-          headerRight: () => (
-            <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
-          ),
+          // headerStyle: { backgroundColor: COLORS.lightWhite },
+          // headerShadowVisible: false,
+          // headerLeft: () => (
+          //   <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%' />
+          // ),
+          // headerRight: () => (
+          //   <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />
+          // ),
           headerTitle: "",
         }}
-      />
+      /> */}
 
       <ScrollView showsVerticalScrollIndicator={false}>
         <View
@@ -49,6 +51,7 @@ const Home = () => {
 
           <Popularjobs />
           <Nearbyjobs />
+         
         </View>
       </ScrollView>
     </SafeAreaView>

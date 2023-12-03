@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-const data = [
+import getLocation from './getLocation'
+import {  ActivityIndicator } from "react-native";
+const data1 = [
 
 
     {
@@ -816,22 +818,28 @@ const data = [
     }
   
   ]
-const useFetch = (endpoint, query) => {
-  const [DATA, setData] = useState([]);
+const useFetch = (endpoint, query ,isLocationReq) => {
+  const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  // const [address,setAddress]= useState()
+
+
+
+
 
   const options = {
     method: "GET",
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     headers: {
-      'X-RapidAPI-Key': '6338c9733emshda65b2aba6e941cp17e274jsnc8d3564127cd',
+      'X-RapidAPI-Key': '79fcf9b435msh33e8a3282b5820dp1d61afjsnec61bab9e776',
       'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
     },
     params: { ...query },
   };
 
   const fetchData = async () => {
+
     setIsLoading(true);
 
     try {
@@ -859,7 +867,7 @@ const useFetch = (endpoint, query) => {
   // return { data, isLoading, error, refetch };
   const isLoading1 = false
   const error1 ='' 
-  return { data, isLoading1, error1, refetch };
+  return { data, isLoading, error, refetch };
 };
 
 export default useFetch;
