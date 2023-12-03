@@ -1,6 +1,7 @@
 You can install this internal distribution build on any device for which this build was provisioned. Learn more.
 
 Scan this code with a device
+
 ![image](https://github.com/MohammedAliBaaqail/NativeJobz/assets/81483016/a4ce3fe4-8e13-4d60-88e7-2582b31df795)
 
 
