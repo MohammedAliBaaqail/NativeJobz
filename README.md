@@ -1,14 +1,20 @@
-# Expo Router Example
+You can install this internal distribution build on any device for which this build was provisioned. Learn more.
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+Scan this code with a device
+![image](https://github.com/MohammedAliBaaqail/NativeJobz/assets/81483016/a4ce3fe4-8e13-4d60-88e7-2582b31df795)
 
-## 🚀 How to use
 
-```sh
-npx create-expo-app -e with-router
-```
 
-## 📝 Notes
+Open the Camera app and point it at this code. Then tap the notification that appears.
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+How to install this build on Android
+
+On devices running Android 8.0 (API level 26) and higher, you must navigate to the Install unknown apps system settings screen to enable app installations from a particular location (i.e. the web browser you are downloading the app from).
+
+On devices running Android 7.1.1 (API level 25) and lower, you should enable the Unknown sources system setting, found in Settings > Security on your device.
+
+Send a link to a device
+
+Send and open the URL below to install it on a device.
+
+https://expo.dev//accounts/m0hamm3dali/projects/NativeJobz/builds/e2c8afae-f513-4965-b7bc-0da60e7a7641
