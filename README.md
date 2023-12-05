@@ -1,4 +1,4 @@
-You can install this internal distribution build on any device for which this build was provisioned. Learn more.
+You can install this internal distribution build on any device for which this build was provisioned.
 
 Scan this code with a device
 
